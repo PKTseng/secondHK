@@ -1,0 +1,174 @@
+body {
+  font-family: Roboto, sans-serif; }
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+h2 {
+  font-size: 64px;
+  line-height: 75px; }
+
+p {
+  font-size: 24px;
+  line-height: 42px; }
+
+span {
+  font-size: 24px;
+  line-height: 42px; }
+
+.lh-42 {
+  line-height: 42px; }
+
+.lh-36 {
+  line-height: 36px; }
+
+.fs-i {
+  font-style: italic; }
+
+.container {
+  margin: 0 auto;
+  width: 1920px; }
+
+.banner {
+  background-image: url("https://upload.cc/i1/2020/04/20/x6PY39.png");
+  height: 960px;
+  color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-style: italic; }
+  .banner .text {
+    margin-top: 100px; }
+  .banner .left {
+    margin-right: 250px; }
+  .banner h1 {
+    line-height: 94px;
+    font-size: 80px;
+    margin-bottom: 32px;
+    font-weight: bold; }
+  .banner .icon {
+    margin-top: 64px; }
+    .banner .icon a {
+      padding: 8px; }
+
+.header {
+  margin-top: 64px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-style: italic; }
+  .header h2 {
+    margin-bottom: 40px;
+    font-style: italic; }
+  .header .aboutMe {
+    margin-top: 24px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold; }
+    .header .aboutMe li {
+      margin-bottom: 8px; }
+  .header hr {
+    border-bottom: 1px solid #000000;
+    margin-top: 32px;
+    margin-bottom: 34px;
+    width: 283px; }
+  .header .workExp {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 32px; }
+    .header .workExp .about-item span {
+      position: relative; }
+      .header .workExp .about-item span::before {
+        position: absolute;
+        content: "";
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: #891818;
+        left: -32px;
+        top: 3px; }
+
+.content {
+  background-color: #000;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #fff;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 160px;
+  margin-top: 56px; }
+  .content h2 {
+    margin-top: 64px;
+    margin-bottom: 16px;
+    font-style: italic; }
+  .content .aboutCreate {
+    margin-top: 32px;
+    margin-bottom: 48px; }
+    .content .aboutCreate p {
+      font-size: 20px;
+      text-align: center; }
+  .content .picture {
+    margin-top: 40px; }
+    .content .picture img {
+      padding: 0 12px; }
+
+.otherWorks {
+  height: 1920px;
+  background-image: url("https://upload.cc/i1/2020/04/20/YTtb1H.png");
+  background-repeat: no-repeat;
+  background-position: center bottom; }
+  .otherWorks .workInner {
+    padding-top: 64px 0 160px 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-weight: bold; }
+    .otherWorks .workInner h2 {
+      margin-bottom: 24px;
+      font-style: italic; }
+    .otherWorks .workInner .WorkContent {
+      margin-bottom: 48px; }
+      .otherWorks .workInner .WorkContent p {
+        font-size: 20px;
+        font-style: italic; }
+  .otherWorks .workSpace {
+    margin-right: 24px; }
+    .otherWorks .workSpace p {
+      text-align: center;
+      color: #fff;
+      font-size: 20px;
+      margin-top: 16px;
+      margin-bottom: 56px;
+      line-height: 42px; }
